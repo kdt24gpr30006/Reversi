@@ -1,0 +1,32 @@
+# DxLib のダウンロード作業領域（third_party/DxLib 自体はリポジトリに含める）
+third_party/_download/
+
+# Build outputs
+build/
+x64/
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.lib
+*.log
+*.tlog
+
+# リポジトリに含めるバイナリ
+!third_party/DxLib/*.lib
+!release/ShiftReversi.exe
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+ipch/
+
+# Local working state
+.context/
+
+# OS
+Thumbs.db
+.DS_Store
